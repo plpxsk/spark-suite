@@ -25,3 +25,7 @@ Run `make test` to run `pytest` tests with automatic discovery.
 
 Can also try `unittest`, but inside `/src`: `python -m unittest`
 
+
+# References
+
+https://towardsdatascience.com/the-elephant-in-the-room-how-to-write-pyspark-unit-tests-a5073acabc34
