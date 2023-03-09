@@ -21,7 +21,7 @@ spark = (SparkSession
          .builder
          .master("local[*]")
          .appName("PySpark-example")
-         .config('spark.port.maxRetries', 30)
+         .config("spark.port.maxRetries", 30)
          .getOrCreate()
          )
 
